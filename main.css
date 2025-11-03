@@ -1,0 +1,41 @@
+/* ============= FILE CSS CHUNG CHO MINI E-WALLET ============= */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa; /* Màu nền xám nhạt */
+}
+
+/* * Lớp dùng để căn giữa các form (đăng nhập, đăng ký, quên mk...) 
+ */
+.auth-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/*
+ * Lớp cho các thẻ (card) chứa form
+ */
+.auth-card {
+    width: 100%;
+    max-width: 420px; /* Giới hạn độ rộng của form */
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Trang chủ (index.html) */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.landing-page .btn-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.15rem;
+    margin: 0.5rem;
+}
